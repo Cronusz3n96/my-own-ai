@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "my-own-ai",
+  "compatibility_date": "2026-09-07",
+  "main": "worker-custom.js",
+  "observability": {
+    "enabled": true
+  },
+  "ai": {
+    "binding": "AI"
+  },
+  "assets": {
+    "directory": "public"
+  }
+}
