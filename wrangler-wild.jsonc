@@ -2,7 +2,7 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "my-own-ai",
   "compatibility_date": "2026-09-07",
-  "main": "worker-raw.js",
+  "main": "worker-wild.js",
   "observability": {
     "enabled": true
   },
